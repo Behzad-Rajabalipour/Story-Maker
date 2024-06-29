@@ -25,7 +25,7 @@
 - **routes:** Backend route definitions.
 
 - **views:** EJS templates.
-
+```
 Story-Maker/
 ├── bin/
 │   └── resetDB.js
@@ -64,7 +64,7 @@ Story-Maker/
 │   ├── layout.scss
 │   ├── main.scss
 │   ├── new_story.scss
-│   v single_story.scss
+│   └── single_story.scss
 ├── views/
 │   ├── partials/
 │   ├── index.ejs
@@ -75,8 +75,7 @@ Story-Maker/
 ├── README.md
 ├── package.json
 └── server.js
-
-
+```
 ## Getting Started
 
 1. Create a `.env` file using `.env.example` as a reference: `cp .env.example .env`
